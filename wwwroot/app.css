@@ -1,0 +1,56 @@
+body {
+  background-color: #212527;
+}
+.loading-progress {
+  position: relative;
+  display: block;
+  width: 8rem;
+  height: 8rem;
+  margin: 20vh auto 1rem auto;
+}
+.loading-progress circle {
+  fill: none;
+  stroke: #212527;
+  stroke-width: 0.6rem;
+  transform-origin: 50% 50%;
+  transform: rotate(-90deg);
+}
+.loading-progress circle:last-child {
+  stroke: rgb(255, 168, 0);
+  stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
+  transition: stroke-dasharray 0.05s ease-in-out;
+}
+.loading-progress-text {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  inset: calc(20vh + 3.25rem) 0 auto 0.2rem;
+}
+.loading-progress-text:after {
+  content: var(--blazor-load-percentage-text, "Loading");
+}
+.mud-appbar {
+  background: #181818;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #212527;
+}
+.mud-drawer {
+  background-image: linear-gradient(to bottom, #181818, #181818, #660000);
+}
+.mud-drawer-content, .mud-drawer-content > .mud-paper {
+  background: transparent;
+}
+.mud-toolbar > .mud-icon-button {
+  color: var(--mud-palette-warning);
+}
+.mud-drawer-header {
+  min-height: 225px;
+}
+.mud-navmenu.mud-navmenu-bordered .mud-nav-link.active:not(.mud-nav-link-disabled) {
+  border-inline-end-width: 4px;
+}

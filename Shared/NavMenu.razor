@@ -1,39 +1,39 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">cif-blazor</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
-
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-            </NavLink>
-        </div>
-    </nav>
-</div>
-
-@code {
-    private bool collapseNavMenu = true;
-
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}
+﻿<MudPaper Elevation="0" Class="py-3">
+    <MudNavMenu Color="Color.Warning" Bordered="true">
+        <MudNavLink Href="/" Match="NavLinkMatch.All" Icon="@Icons.Filled.Home">Home</MudNavLink>
+        <MudNavLink Href="/events" Icon="@Icons.Filled.Event">Events</MudNavLink>
+        <MudNavGroup Href="/culture" Icon="@Icons.Filled.Flag" Title="Culture" Expanded="true">
+            <MudNavLink Href="/culture#dancegrounds">Dancegrounds</MudNavLink>
+            <MudNavLink Href="/culture#arts">Arts & Crafts</MudNavLink>
+            <MudNavLink Href="/culture#food">Traditional Food</MudNavLink>
+        </MudNavGroup>
+        <MudNavGroup Href="/family" Icon="@Icons.Filled.Attractions" Title="Family Fun" Expanded="true">
+            <MudNavLink Href="/family#rides">Shawi's Discovery Zone</MudNavLink>
+            <MudNavLink Href="/family#games">Ossi Cove</MudNavLink>
+            <MudNavLink Href="/family#shows">Midway Carnival</MudNavLink>
+        </MudNavGroup>
+        <MudNavGroup Href="/stickball" Icon="@Icons.Filled.SportsBaseball" Title="Stickball" Expanded="true">
+            <MudNavLink Href="/stickball#mens">Mens</MudNavLink>
+            <MudNavLink Href="/stickball#womens">Womens</MudNavLink>
+            <MudNavLink Href="/stickball#mens35">Mens (35+)</MudNavLink>
+            <MudNavLink Href="/stickball#tulli">Tulli Okchi Ishko (14-17)</MudNavLink>
+            <MudNavLink Href="/stickball#push">Pushmataha (10-13)</MudNavLink>
+        </MudNavGroup>
+        <MudNavLink Href="/pageant" Icon="@Icons.Filled.SportsVolleyball">Pageant</MudNavLink>
+        <MudNavGroup Href="/competitions" Icon="@Icons.Filled.SportsEsports" Title="Competitions" Expanded="true">
+            <MudNavLink Href="/competitions#stickball">RezRun</MudNavLink>
+            <MudNavLink Href="/competitions#powwow">Iron Warrior</MudNavLink>
+            <MudNavLink Href="/competitions#pageant">Cornhole Tournament</MudNavLink>
+            <MudNavLink Href="/competitions#dance">Volleyball Tournament</MudNavLink>
+            <MudNavLink Href="/competitions#arts">Gospel Night</MudNavLink>
+            <MudNavLink Href="/competitions#food">Little Mr. & Miss Choctaw Indian Fair</MudNavLink>
+            <MudNavLink Href="/competitions#food">Frybread Making Contest</MudNavLink>
+            <MudNavLink Href="/competitions#food">Watermelon Eating Contest</MudNavLink>
+        </MudNavGroup>
+        <MudNavGroup Href="/info" Icon="@Icons.Filled.Info" Title="Visitor Info" Expanded="true">
+            <MudNavLink Href="/info#admission">Admission Prices</MudNavLink>
+            <MudNavLink Href="/info#map">Fairgrounds Map</MudNavLink>
+            <MudNavLink Href="/info#parking">Lodging & Shuttle Route Map</MudNavLink>
+        </MudNavGroup>
+    </MudNavMenu>
+</MudPaper>
