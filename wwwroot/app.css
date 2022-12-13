@@ -34,13 +34,13 @@ body {
 .mud-appbar {
   background: #181818;
 }
+.mud-drawer {
+  background-image: linear-gradient(to bottom, #181818, #181818, #660000);
+}
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
   background: #212527;
-}
-.mud-drawer {
-  background-image: linear-gradient(to bottom, #181818, #181818, #660000);
 }
 .mud-drawer-content, .mud-drawer-content > .mud-paper {
   background: transparent;
@@ -54,3 +54,4 @@ body {
 .mud-navmenu.mud-navmenu-bordered .mud-nav-link.active:not(.mud-nav-link-disabled) {
   border-inline-end-width: 4px;
 }
+  

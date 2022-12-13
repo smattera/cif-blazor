@@ -41,6 +41,39 @@
         }
       },
       {
+        "HashCode": -1328587136,
+        "Kind": "Components.Component",
+        "Name": "cif_blazor.Shared.NavMenu",
+        "AssemblyName": "cif-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "cif_blazor.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 944188982,
+        "Kind": "Components.Component",
+        "Name": "cif_blazor.Shared.NavMenu",
+        "AssemblyName": "cif-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "cif_blazor.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "cif_blazor.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -731655590,
         "Kind": "Components.Component",
         "Name": "cif_blazor.Shared.MainLayout",
@@ -133,39 +166,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "cif_blazor.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1328587136,
-        "Kind": "Components.Component",
-        "Name": "cif_blazor.Shared.NavMenu",
-        "AssemblyName": "cif-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "cif_blazor.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 944188982,
-        "Kind": "Components.Component",
-        "Name": "cif_blazor.Shared.NavMenu",
-        "AssemblyName": "cif-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "cif_blazor.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "cif_blazor.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

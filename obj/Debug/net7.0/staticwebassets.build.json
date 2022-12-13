@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "96UoEJuntY0PBh9a7zzdkKt3xDNjO+Vf4fpLHZV/V9M=",
+  "Hash": "bzEnqP85704Bo5ma2tPPatvpa/lBcE3x7FDAHotMFvY=",
   "Source": "cif-blazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -6987,12 +6987,12 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/icon.webp",
+      "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/icon.webp",
       "SourceId": "cif-blazor",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/sonny.mattera/development/cif-blazor/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "icon.webp",
+      "RelativePath": "img/icon.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7001,7 +7001,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/icon.webp"
+      "OriginalItemSpec": "wwwroot/img/icon.webp"
     },
     {
       "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/index.html",

@@ -17,8 +17,8 @@
       "PackagePath": "staticwebassets/app.css"
     },
     {
-      "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/icon.webp",
-      "PackagePath": "staticwebassets/icon.webp"
+      "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/icon.webp",
+      "PackagePath": "staticwebassets/img/icon.webp"
     },
     {
       "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/index.html",
