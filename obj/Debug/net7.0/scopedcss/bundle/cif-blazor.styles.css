@@ -1,26 +1,2 @@
 /* /Shared/MainLayout.razor.rz.scp.css */
-.mud-appbar[b-dc68fkkopf] {
-  background: #181818;
-}
-.mud-drawer[b-dc68fkkopf] {
-  background-image: linear-gradient(to bottom, #181818, #181818, #660000);
-}
-[b-dc68fkkopf]::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-  background: #212527;
-}
-.mud-drawer-content[b-dc68fkkopf], .mud-drawer-content > .mud-paper[b-dc68fkkopf] {
-  background: transparent;
-}
-.mud-toolbar > .mud-icon-button[b-dc68fkkopf] {
-  color: var(--mud-palette-warning);
-}
-.mud-drawer-header[b-dc68fkkopf] {
-  min-height: 225px;
-}
-.mud-navmenu.mud-navmenu-bordered .mud-nav-link.active:not(.mud-nav-link-disabled)[b-dc68fkkopf] {
-  border-inline-end-width: 4px;
-}
-  
 /* /Shared/NavMenu.razor.rz.scp.css */

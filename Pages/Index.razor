@@ -2,35 +2,41 @@
 
 <PageTitle>Choctaw Indian Fair</PageTitle>
 
-<MudText Typo="Typo.h1" Class="text-center">Choctaw Indian Fair</MudText>
+<MudPaper Style="height:80vh;width:100vw;">
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="/img/CIFVideoWeb_1.mp4" type="video/mp4">
+  </video>
+</MudPaper>
 
-<MudCarousel Class="mud-width-full" Style="height:200px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true" TData="object">
-    <MudCarouselItem Transition="Transition.Fade" Color="@Color.Primary">
-        <MudGrid>
-            <MudItem xs="12" sm="4">
-                <MudPaper Class="d-flex align-center justify-center mud-width-full py-8"></MudPaper>
-            </MudItem>
-            <MudItem xs="12" sm="4">
-                <MudPaper Class="d-flex align-center justify-center mud-width-full py-8"></MudPaper>
-            </MudItem>
-            <MudItem xs="12" sm="4">
-                <MudPaper Class="d-flex align-center justify-center mud-width-full py-8"></MudPaper>
-            </MudItem>
-        </MudGrid>
-    </MudCarouselItem>
-    <MudCarouselItem Transition="Transition.Fade" Color="@Color.Primary">
-        <div class="d-flex" style="height:100%">
-            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
-        </div>
-    </MudCarouselItem>
-    <MudCarouselItem Transition="Transition.Fade" Color="@Color.Secondary">
-        <div class="d-flex" style="height:100%">
-            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
-        </div>
-    </MudCarouselItem>
-    <MudCarouselItem Transition="Transition.Fade" Color="@Color.Primary">
-        <div class="d-flex" style="height:100%">
-            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Color="@Color.Primary" Size="@Size.Large" />
-        </div>
-    </MudCarouselItem>
+<MudCarousel Class="mud-width-full" Style="height:200px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true"
+  AutoCycle="true" TData="object">
+  <MudCarouselItem Transition="Transition.Fade" Color="@Color.Primary">
+    <MudGrid>
+      <MudItem xs="12" sm="4">
+        <MudPaper Class="d-flex align-center justify-center mud-width-full py-8"></MudPaper>
+      </MudItem>
+      <MudItem xs="12" sm="4">
+        <MudPaper Class="d-flex align-center justify-center mud-width-full py-8"></MudPaper>
+      </MudItem>
+      <MudItem xs="12" sm="4">
+        <MudPaper Class="d-flex align-center justify-center mud-width-full py-8"></MudPaper>
+      </MudItem>
+    </MudGrid>
+  </MudCarouselItem>
+  <MudCarouselItem Transition="Transition.Fade" Color="@Color.Primary">
+    <div class="d-flex" style="height:100%">
+      <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
+    </div>
+  </MudCarouselItem>
+  <MudCarouselItem Transition="Transition.Fade" Color="@Color.Secondary">
+    <div class="d-flex" style="height:100%">
+      <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
+    </div>
+  </MudCarouselItem>
+  <MudCarouselItem Transition="Transition.Fade" Color="@Color.Primary">
+    <div class="d-flex" style="height:100%">
+      <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Color="@Color.Primary"
+        Size="@Size.Large" />
+    </div>
+  </MudCarouselItem>
 </MudCarousel>
