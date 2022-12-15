@@ -3,8 +3,12 @@
 <PageTitle>Choctaw Indian Fair</PageTitle>
 
 <MudPaper Height="85vh" Width="100%" MinHeight="25rem" Class="relative overflow-hidden">
-  <MudHidden Breakpoint="Breakpoint.Sm" Invert="true">
-    <MudImage Class="d-flex h-full w-full object-cover" Src="https://www.choctawindianfair.com/cif-blazor/img/CIF-bg.webp" />
+  <MudHidden Breakpoint="Breakpoint.SmAndDown" Invert="true" Style="background: url('https://wwww.choctawindianfair.com/cif-blazor/img/CIF-bg.webp') black no-repeat center center scroll;">
+    <MudPaper Width="80%" Height="100%" Class="d-block">
+      <MudPaper Height="100%" Class="d-flex text-center align-items-center">
+        <MudImage Class="w-full" Src="https://www.choctawindianfair.com/cif-blazor/img/fairlogo.webp" />
+      </MudPaper>
+    </MudPaper>
   </MudHidden>
   <MudHidden Breakpoint="Breakpoint.MdAndUp" Invert="true">
     <BlazoredVideo Loop="true" Muted="true" AutoPlay="true" aria-controls="false">
