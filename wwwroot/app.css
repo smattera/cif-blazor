@@ -1,3 +1,19 @@
+:root {
+  --mud-palette-warning: #FFD54F!important;
+  --mud-palette-warning-dark: #FFC107!important;
+  --mud-palette-info: #64B5F6!important;
+  --mud-palette-info-dark: #2196F3!important;
+  --mud-palette-success: #81C784!important;
+  --mud-palette-success-dark: #4CAF50!important;
+  --mud-palette-error: #E57373!important;
+  --mud-palette-error-dark: #F44336!important;
+  --mud-palette-primary: #BA58C8!important;
+  --mud-palette-primary-dark: #9C27B0!important;
+  --mud-palette-secondary: #F06292!important;
+  --mud-palette-secondary-dark: #E91E63!important;
+  --mud-palette-tertiary: #E0E0E0!important;
+  --mud-palette-tertiary-dark: #9E9E9E!important;
+}
 body {
   background-color: #212527;
 }
