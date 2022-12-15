@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CjJDHtg9uwneGpUd0ZeSML+9CUZ2kX4+Lr29HbbcFIU=",
+  "Hash": "eo82eyoFcnUcgJmBH/67Dwe5EwWD5XTJuKlOO/YMOPs=",
   "Source": "cif-blazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -7019,6 +7019,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/CIF-bg.webp",
+      "SourceId": "cif-blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sonny.mattera/development/cif-blazor/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "img/CIF-bg.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/CIF-bg.webp"
     },
     {
       "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/CIFVideoWeb_1.mp4",

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/app.css"
     },
     {
+      "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/CIF-bg.webp",
+      "PackagePath": "staticwebassets/img/CIF-bg.webp"
+    },
+    {
       "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/CIFVideoWeb_1.mp4",
       "PackagePath": "staticwebassets/img/CIFVideoWeb_1.mp4"
     },
