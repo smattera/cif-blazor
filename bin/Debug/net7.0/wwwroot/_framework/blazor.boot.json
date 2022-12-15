@@ -7,6 +7,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "Blazored.Video.dll": "sha256-zVNaQ7Aju89L5fUokzU+aTpKkBSZtFpn7ifN4LHCOug=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-NFh6IBi88fjYMkbq\/IMrfqfn7JXFa8CwRo31QNrEQ+w=",
       "Microsoft.AspNetCore.Components.dll": "sha256-9VddC0kXU8yC0LxsoSLOvzSAzJZxM+P1hCgrsV6GGBw=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-11bIX\/fyH9chfWgC1L1jFvAt2Ppq+6bcXl1eH6OmxMA=",
@@ -199,13 +200,13 @@
       "mscorlib.dll": "sha256-pO\/W4w\/X+UjVMUMaxE5tYTQ0tILP+hmMu0zi0MSVBLc=",
       "netstandard.dll": "sha256-kj5cBXzwPYC+HD+P8+6VybY34JtEzjXjMIHXEI3hIiM=",
       "System.Private.CoreLib.dll": "sha256-Awk1lCiFfH7r9AAZfBtGqS8rhv6UJ5lUu3yF6HDH3tQ=",
-      "cif-blazor.dll": "sha256-qUkqa5iiCgrlN0jfwNvJf8PKvdsArdeIHV8UZ+\/6vo8="
+      "cif-blazor.dll": "sha256-GKL1MK4Z2UlNdOtLJy8tn70r0jB9zCRukY\/7oAdaS0U="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "cif-blazor.pdb": "sha256-z4krsrGl\/H8CEJnEAbXDZ7q03At9lWRDNDwpPUkGYlY="
+      "cif-blazor.pdb": "sha256-c\/nW4F\/NodM9zX3TQsxm3PiW242YfIit8GVhGO8mb\/g="
     },
     "runtime": {
       "dotnet.7.0.0.kl3mycxnxt.js": "sha256-2jNLve8W0sST0LAebgAc1IwSnGhkbjOKO8QPWWiJssI=",

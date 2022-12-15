@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ze+9SUY4AKkw4jN9OM+WO5QH6zEqJn6dg/hFfaTEEKs=",
+  "Hash": "CjJDHtg9uwneGpUd0ZeSML+9CUZ2kX4+Lr29HbbcFIU=",
   "Source": "cif-blazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/sonny.mattera/.nuget/packages/microsoft.aspnetcore.components.webassembly/7.0.0/build/net7.0/blazor.webassembly.js"
+    },
+    {
+      "Identity": "/Users/sonny.mattera/development/cif-blazor/bin/Debug/net7.0/wwwroot/_framework/Blazored.Video.dll",
+      "SourceId": "cif-blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/sonny.mattera/development/cif-blazor/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.Video.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/sonny.mattera/.nuget/packages/blazored.video/1.0.0/lib/netstandard2.1/Blazored.Video.dll"
     },
     {
       "Identity": "/Users/sonny.mattera/development/cif-blazor/bin/Debug/net7.0/wwwroot/_framework/cif-blazor.dll",
@@ -3993,6 +4010,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/sonny.mattera/development/cif-blazor/bin/Debug/net7.0/wwwroot/_framework/System.Reflection.Metadata.dll"
+    },
+    {
+      "Identity": "/Users/sonny.mattera/development/cif-blazor/obj/Debug/net7.0/build-gz/8NNsQr9u.gz",
+      "SourceId": "cif-blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/sonny.mattera/development/cif-blazor/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.Video.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/sonny.mattera/development/cif-blazor/bin/Debug/net7.0/wwwroot/_framework/Blazored.Video.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/sonny.mattera/development/cif-blazor/bin/Debug/net7.0/wwwroot/_framework/Blazored.Video.dll"
     },
     {
       "Identity": "/Users/sonny.mattera/development/cif-blazor/obj/Debug/net7.0/build-gz/8PQwAvw3.gz",

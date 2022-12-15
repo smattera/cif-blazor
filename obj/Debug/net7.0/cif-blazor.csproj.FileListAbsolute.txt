@@ -830,3 +830,7 @@
 /Users/sonny.mattera/development/cif-blazor/obj/Debug/net7.0/refint/cif-blazor.dll
 /Users/sonny.mattera/development/cif-blazor/obj/Debug/net7.0/cif-blazor.pdb
 /Users/sonny.mattera/development/cif-blazor/obj/Debug/net7.0/ref/cif-blazor.dll
+/Users/sonny.mattera/development/cif-blazor/bin/Debug/net7.0/wwwroot/_framework/Blazored.Video.dll
+/Users/sonny.mattera/development/cif-blazor/bin/Debug/net7.0/wwwroot/_framework/Blazored.Video.dll.gz
+/Users/sonny.mattera/development/cif-blazor/bin/Debug/net7.0/Blazored.Video.dll
+/Users/sonny.mattera/development/cif-blazor/obj/Debug/net7.0/build-gz/8NNsQr9u.gz

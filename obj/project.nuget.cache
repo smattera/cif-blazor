@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kFNHUskwMuS5INXBKJcgyw6tpuT53ty1HyM4RrMLilgfpggPj/bWsi/FqYb1fPNC6bRYPay21xzg9d0aRoQYug==",
+  "dgSpecHash": "/WpQlMoa8lZfxj2yGQgejoR1BzIDCzJWsHPn7HmWrmrt8XpHRm/glE1BBrytDlGX9rIVy620Hp0tC2O0vDKnVg==",
   "success": true,
   "projectFilePath": "/Users/sonny.mattera/development/cif-blazor/cif-blazor.csproj",
   "expectedPackageFiles": [
+    "/Users/sonny.mattera/.nuget/packages/blazored.video/1.0.0/blazored.video.1.0.0.nupkg.sha512",
     "/Users/sonny.mattera/.nuget/packages/microsoft.aspnetcore.authorization/7.0.0/microsoft.aspnetcore.authorization.7.0.0.nupkg.sha512",
     "/Users/sonny.mattera/.nuget/packages/microsoft.aspnetcore.components/7.0.0/microsoft.aspnetcore.components.7.0.0.nupkg.sha512",
     "/Users/sonny.mattera/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.0/microsoft.aspnetcore.components.analyzers.7.0.0.nupkg.sha512",

@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Blazored.Video/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.6",
+          "Microsoft.AspNetCore.Components.Web": "3.1.6"
+        },
+        "compile": {
+          "lib/netstandard2.1/Blazored.Video.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Blazored.Video.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -501,6 +514,19 @@
       }
     },
     "net7.0/browser-wasm": {
+      "Blazored.Video/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.6",
+          "Microsoft.AspNetCore.Components.Web": "3.1.6"
+        },
+        "compile": {
+          "lib/netstandard2.1/Blazored.Video.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Blazored.Video.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -995,6 +1021,19 @@
     }
   },
   "libraries": {
+    "Blazored.Video/1.0.0": {
+      "sha512": "AwCkzSosZJEzyGs1XNpXYhKi1vHD0R2xhicKfQKMEHXJornbKjBdCwbvbv4zMFvVNLbJF3kcbikBN/suI8DyYw==",
+      "type": "package",
+      "path": "blazored.video/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.video.1.0.0.nupkg.sha512",
+        "blazored.video.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/Blazored.Video.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/7.0.0": {
       "sha512": "0O7C7XHj+17Q0geMpnpRC0fnnALH2Yhaa2SAzX00OkeF2NZ/+zWoDymbSnepg1qhueufUivihZiVGtMeq5Zywg==",
       "type": "package",
@@ -1865,6 +1904,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Blazored.Video >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.0",
       "MudBlazor >= 6.1.5"
@@ -1908,6 +1948,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Blazored.Video": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[7.0.0, )"
