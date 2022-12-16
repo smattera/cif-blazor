@@ -109,3 +109,8 @@ body {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
+
+.mud-nav-item .mud-icon-default, .mud-nav-link .mud-icon-default {
+  font-size: 1.75rem !important;
+  margin-top: 3px;
+}
