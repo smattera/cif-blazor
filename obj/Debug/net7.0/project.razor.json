@@ -41,39 +41,6 @@
         }
       },
       {
-        "HashCode": -1528989049,
-        "Kind": "Components.Component",
-        "Name": "cif_blazor.Pages.Index",
-        "AssemblyName": "cif-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "cif_blazor.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1776629610,
-        "Kind": "Components.Component",
-        "Name": "cif_blazor.Pages.Index",
-        "AssemblyName": "cif-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "cif_blazor.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "cif_blazor.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1687885178,
         "Kind": "Components.Component",
         "Name": "cif_blazor.Shared.NavMenu",
@@ -199,6 +166,39 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "cif_blazor.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1528989049,
+        "Kind": "Components.Component",
+        "Name": "cif_blazor.Pages.Index",
+        "AssemblyName": "cif-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "cif_blazor.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1776629610,
+        "Kind": "Components.Component",
+        "Name": "cif_blazor.Pages.Index",
+        "AssemblyName": "cif-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "cif_blazor.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "cif_blazor.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
