@@ -2,20 +2,22 @@
 
 <PageTitle>Choctaw Indian Fair</PageTitle>
 
-<MudPaper Height="85vh" Width="100%" MinHeight="25rem" Class="relative overflow-hidden">
-  <MudHidden Breakpoint="Breakpoint.SmAndDown" Invert="true" Style="background: url('https://wwww.choctawindianfair.com/cif-blazor/img/CIF-bg.webp') black no-repeat center center scroll;">
-    <MudPaper Width="80%" Height="100%" Class="d-block">
-      <MudPaper Height="100%" Class="d-flex text-center align-items-center">
-        <MudImage Class="w-full" Src="https://www.choctawindianfair.com/cif-blazor/img/fairlogo.webp" />
+  <div class="header">
+    <MudHidden Breakpoint="Breakpoint.MdAndUp" Invert="true">
+      <BlazoredVideo Loop="true" Muted="true" AutoPlay="true" aria-controls="false" Class="absolute z-0" Style="top:50%;left:50%;min-width:100%;min-height:100%;width:auto;height:auto;-ms-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);-webkit-transform: translateX(-50%) translateY(-50%);transform: translateX(-50%) translateY(-50%);">
+        <source src="https://www.choctawindianfair.com/cif-blazor/img/CIFVideoWeb_1.mp4" type="video/mp4" />
+      </BlazoredVideo>
+    </MudHidden>
+    <MudHidden Breakpoint="Breakpoint.SmAndDown" Invert="true">
+      <MudPaper Class="relative z-2 mud-height-full" Style="background:none;" Elevation="0">
+        <MudPaper Class="d-flex mud-height-full align-center" Style="background:none;text-align:center;" Elevation="0">
+          <MudPaper Class="mud-width-full" style="background:none;" Elevation="0">
+            <MudImage Src="https://www.choctawindianfair.com/cif-blazor/img/logos/fairlogo.webp" Alt="Choctaw Indian Fair Logo" />
+          </MudPaper>
+        </MudPaper>
       </MudPaper>
-    </MudPaper>
-  </MudHidden>
-  <MudHidden Breakpoint="Breakpoint.MdAndUp" Invert="true">
-    <BlazoredVideo Loop="true" Muted="true" AutoPlay="true" aria-controls="false">
-      <source src="https://www.choctawindianfair.com/cif-blazor/img/CIFVideoWeb_1.mp4" type="video/mp4" />
-    </BlazoredVideo>
-  </MudHidden>
-</MudPaper>
+    </MudHidden>
+  </div>
 
 <MudCarousel Class="mud-width-full" Style="height:500px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true"
   AutoCycle="true" TData="object">
@@ -50,24 +52,4 @@
       <MudText Class="mx-auto my-auto" Typo="Typo.h4">Competitions</MudText>
     </div>
   </MudCarouselItem>
-  @* <MudCarouselItem Transition="Transition.Slide" Color="Color.Success">
-    <div class="d-flex" style="height:100%">
-      <MudText Class="mx-auto my-auto" Typo="Typo.h4">Visitor Info</MudText>
-    </div>
-  </MudCarouselItem>
-  <MudCarouselItem Transition="Transition.Slide" Color="Color.Primary">
-    <div class="d-flex" style="height:100%">
-      <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
-    </div>
-  </MudCarouselItem>
-  <MudCarouselItem Transition="Transition.Slide" Color="Color.Secondary">
-    <div class="d-flex" style="height:100%">
-      <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
-    </div>
-  </MudCarouselItem>
-  <MudCarouselItem Transition="Transition.Slide" Color="Color.Primary">
-    <div class="d-flex" style="height:100%">
-      <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
-    </div>
-  </MudCarouselItem> *@
 </MudCarousel>

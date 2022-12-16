@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eo82eyoFcnUcgJmBH/67Dwe5EwWD5XTJuKlOO/YMOPs=",
+  "Hash": "YNSR8bUwBIew6wzuKZ5YfL44Fr0nhs80N/V+j9XzqqU=",
   "Source": "cif-blazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -7055,12 +7055,12 @@
       "OriginalItemSpec": "wwwroot/img/CIFVideoWeb_1.mp4"
     },
     {
-      "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/icon.webp",
+      "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/logos/fairlogo.webp",
       "SourceId": "cif-blazor",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/sonny.mattera/development/cif-blazor/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "img/icon.webp",
+      "RelativePath": "img/logos/fairlogo.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7069,7 +7069,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/icon.webp"
+      "OriginalItemSpec": "wwwroot/img/logos/fairlogo.webp"
+    },
+    {
+      "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/logos/icon.webp",
+      "SourceId": "cif-blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sonny.mattera/development/cif-blazor/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "img/logos/icon.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/icon.webp"
     },
     {
       "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/index.html",

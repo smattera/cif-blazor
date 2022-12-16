@@ -13,6 +13,21 @@
   --mud-palette-secondary-dark: #E91E63!important;
   --mud-palette-tertiary: #E0E0E0!important;
   --mud-palette-tertiary-dark: #9E9E9E!important;
+  --mud-typography-default-family: Bebas Neue, sans-serif!important;
+  --mud-typography-default-size: 1.4rem!important;
+  --mud-typography-button-family: Bebas Neue, sans-serif!important;
+  --mud-typography-body1-family: Bebas Neue, sans-serif!important;
+  --mud-typography-body2-family: Bebas Neue, sans-serif!important;
+  --mud-typography-caption-family: Bebas Neue, sans-serif!important;
+  --mud-typography-h1-family: Bebas Neue, sans-serif!important;
+  --mud-typography-h2-family: Bebas Neue, sans-serif!important;
+  --mud-typography-h3-family: Bebas Neue, sans-serif!important;
+  --mud-typography-h4-family: Bebas Neue, sans-serif!important;
+  --mud-typography-h5-family: Bebas Neue, sans-serif!important;
+  --mud-typography-h6-family: Bebas Neue, sans-serif!important;
+  --mud-typography-subtitle1-family: Bebas Neue, sans-serif!important;
+  --mud-typography-subtitle2-family: Bebas Neue, sans-serif!important;
+  --mud-typography-overline-family: Bebas Neue, sans-serif!important;
 }
 body {
   background-color: #212527;
@@ -70,17 +85,12 @@ body {
 .mud-navmenu.mud-navmenu-bordered .mud-nav-link.active:not(.mud-nav-link-disabled) {
   border-inline-end-width: 4px;
 }
-video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+.header {
+  position: relative;
+  height: 85vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  background: url("https://www.choctawindianfair.com/cif-blazor/img/CIF-bg.webp") no-repeat center center scroll;
+  background-size: cover;
 }
