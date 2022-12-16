@@ -8,7 +8,7 @@
   "resources": {
     "assembly": {
       "Blazored.Video.dll": "sha256-zVNaQ7Aju89L5fUokzU+aTpKkBSZtFpn7ifN4LHCOug=",
-      "cif-blazor.dll": "sha256-yK8P1CQm6uFc6FMMcot8A+rkL3dlRVCAEC9ikZp0Ijg=",
+      "cif-blazor.dll": "sha256-T4uoYFHaMVREbMPfR5Vj1h4meEa3I6RHVLznFuZijus=",
       "Microsoft.AspNetCore.Components.dll": "sha256-xfdprRfFnZhhHcE0\/Yqcpf\/jEPgjk4lgO5yjg3il9bw=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-N2cgUzafkoP\/vbMMbrn\/qu8GigcF1aeYymQUCUs+nSI=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-VfuhQtMrvCmEflZYOOSPlstWKSnWBKH\/9leuaVp3ChE=",
