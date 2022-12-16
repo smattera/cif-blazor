@@ -1,12 +1,11 @@
 ﻿@page "/"
 
 <PageTitle>Choctaw Indian Fair</PageTitle>
-
   <div class="header">
     <MudHidden Breakpoint="Breakpoint.MdAndUp" Invert="true">
-      <BlazoredVideo nocontrols autoplay loop muted Class="absolute z-0" Style="top:50%;left:50%;min-width:100%;min-height:100%;width:auto;height:auto;-ms-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);-webkit-transform: translateX(-50%) translateY(-50%);transform: translateX(-50%) translateY(-50%);">
+      <video playsinline muted loop autoplay>
         <source src="https://www.choctawindianfair.com/cif-blazor/img/CIFVideoWeb_1.mp4" type="video/mp4" />
-      </BlazoredVideo>
+      </video>
     </MudHidden>
     <MudHidden Breakpoint="Breakpoint.SmAndDown" Invert="true">
       <MudPaper Class="relative z-2 mud-height-full" Style="background:none;" Elevation="0">
