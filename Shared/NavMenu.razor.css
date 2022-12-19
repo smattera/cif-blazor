@@ -1,0 +1,10 @@
+#rotate {
+  transform: rotateY(0deg) rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  font-size: 1rem;
+  padding-right: 3px;
+  margin-left: 10px;
+}

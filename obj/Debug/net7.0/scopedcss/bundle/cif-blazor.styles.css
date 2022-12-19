@@ -11,4 +11,15 @@
   border-image-source:linear-gradient(to bottom, #fea, #dff, #da4)
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
+
 /* /Shared/NavMenu.razor.rz.scp.css */
+#rotate[b-h61xhqwsfk] {
+  transform: rotateY(0deg) rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  font-size: 1rem;
+  padding-right: 3px;
+  margin-left: 10px;
+}
