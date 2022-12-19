@@ -20,13 +20,37 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sonny.mattera/development/cif-blazor/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[/Users/sonny.mattera/development/cif-blazor/Pages/Culture.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VsdHVyZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sonny.mattera/development/cif-blazor/Pages/Events.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXZlbnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sonny.mattera/development/cif-blazor/Pages/Family.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmFtaWx5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sonny.mattera/development/cif-blazor/Pages/Pageant.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFnZWFudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sonny.mattera/development/cif-blazor/Pages/Registration.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVnaXN0cmF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sonny.mattera/development/cif-blazor/Pages/Stickball.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RpY2tiYWxsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/sonny.mattera/development/cif-blazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sonny.mattera/development/cif-blazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-lttu37tt7n
 
 [/Users/sonny.mattera/development/cif-blazor/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=

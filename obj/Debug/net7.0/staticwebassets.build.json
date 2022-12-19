@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G22T/zETihuWojsEF0I7jk3zLHd3Y/6TChARO7UGtvU=",
+  "Hash": "Oh9h189cex+1S5kN0GuIl/6UnG8VOXvbIlyg/z9ixcQ=",
   "Source": "cif-blazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -6987,6 +6987,23 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
+      "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/chiefprincess.webp",
+      "SourceId": "cif-blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sonny.mattera/development/cif-blazor/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "img/chiefprincess.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/chiefprincess.webp"
+    },
+    {
       "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/CIF-bg.webp",
       "SourceId": "cif-blazor",
       "SourceType": "Discovered",
@@ -7053,6 +7070,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/icon.webp"
+    },
+    {
+      "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/svg/diamond-bg.svg",
+      "SourceId": "cif-blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sonny.mattera/development/cif-blazor/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "img/svg/diamond-bg.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/svg/diamond-bg.svg"
     },
     {
       "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/index.html",

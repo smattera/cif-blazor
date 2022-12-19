@@ -25,12 +25,20 @@
       "PackagePath": "staticwebassets/img/CIFVideoWeb_1.mp4"
     },
     {
+      "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/chiefprincess.webp",
+      "PackagePath": "staticwebassets/img/chiefprincess.webp"
+    },
+    {
       "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/logos/fairlogo.webp",
       "PackagePath": "staticwebassets/img/logos/fairlogo.webp"
     },
     {
       "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/logos/icon.webp",
       "PackagePath": "staticwebassets/img/logos/icon.webp"
+    },
+    {
+      "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/svg/diamond-bg.svg",
+      "PackagePath": "staticwebassets/img/svg/diamond-bg.svg"
     },
     {
       "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/index.html",
