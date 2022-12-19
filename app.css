@@ -28,6 +28,7 @@
   --mud-typography-subtitle1-family: Bebas Neue, sans-serif!important;
   --mud-typography-subtitle2-family: Bebas Neue, sans-serif!important;
   --mud-typography-overline-family: Bebas Neue, sans-serif!important;
+  --mud-palette-action-default-hover: rgba(255,168,0,0.06)!important;
 }
 body {
   background-color: #212527;
@@ -82,6 +83,9 @@ body {
 .mud-drawer-header {
   min-height: 225px;
 }
+.mud-nav-link {
+  line-height: 1.5;
+}
 .mud-navmenu.mud-navmenu-bordered .mud-nav-link.active:not(.mud-nav-link-disabled) {
   border-inline-end-width: 4px;
 }
@@ -112,5 +116,5 @@ body {
 
 .mud-nav-item .mud-icon-default, .mud-nav-link .mud-icon-default {
   font-size: 1.75rem !important;
-  margin-top: 3px;
+  margin-top: 2px;
 }
