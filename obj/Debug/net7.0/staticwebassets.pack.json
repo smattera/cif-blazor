@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets/img/diamond-bg.png"
     },
     {
+      "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/diamond-bg2.png",
+      "PackagePath": "staticwebassets/img/diamond-bg2.png"
+    },
+    {
       "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/logos/fairlogo.webp",
       "PackagePath": "staticwebassets/img/logos/fairlogo.webp"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PdGK8mk652W0jhBG8DgHkOFq1ueuLu91OhyRA3MPX5E=",
+  "Hash": "b1VZDLhuHX7A8xUiN8JSI0I06GP2547H8Gb0NBfGRLA=",
   "Source": "cif-blazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -7087,6 +7087,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/diamond-bg.png"
+    },
+    {
+      "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/diamond-bg2.png",
+      "SourceId": "cif-blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sonny.mattera/development/cif-blazor/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "img/diamond-bg2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/diamond-bg2.png"
     },
     {
       "Identity": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/logos/fairlogo.webp",
