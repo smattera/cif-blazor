@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets/cif-blazor.styles.css"
     },
     {
+      "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/app.css",
       "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/.DS_Store",
+      "PackagePath": "staticwebassets/img/.DS_Store"
     },
     {
       "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/CIF-bg.webp",
@@ -27,6 +35,10 @@
     {
       "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/chiefprincess.webp",
       "PackagePath": "staticwebassets/img/chiefprincess.webp"
+    },
+    {
+      "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/diamond-bg.png",
+      "PackagePath": "staticwebassets/img/diamond-bg.png"
     },
     {
       "Id": "/Users/sonny.mattera/development/cif-blazor/wwwroot/img/logos/fairlogo.webp",
