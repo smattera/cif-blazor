@@ -1,6 +1,6 @@
 .diamond-bg {
   background: url("https://www.choctawindianfair.com/cif-blazor/img/diamond-bg.png") center repeat, linear-gradient(30deg, #500, maroon, #500, maroon, #500, maroon, #500);
-  background-size: 700px 700px, cover;
+  background-size: 292px 147px, cover;
   background-attachment:fixed, fixed
 }
 #card-gold-border {
