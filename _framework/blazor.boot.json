@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "cif-blazor.dll": "sha256-MH92vXOMtrV+AhmPQeY\/DiraisDY9hsLIwXUkPwPcCQ=",
+      "cif-blazor.dll": "sha256-t29gmRX8T2FjPXzpTjxzJaeZ8dk+TdWGdl738P79+ag=",
       "Microsoft.AspNetCore.Components.dll": "sha256-eanwOqZjvcRqMnLXgtl1vKb3rF5U79Lsbp9qFyuTPIg=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-3SUOUqqapHhh85LmDZm84Qreqcj3Gy5qHzOLd\/O2RZ8=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-cz2yGWzbLbReFI9Y5kqhENP0YgohK0loB8GxoTaDNC8=",
