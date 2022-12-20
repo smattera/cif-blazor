@@ -1,5 +1,5 @@
 .diamond-bg {
-  background: url("https://www.choctawindianfair.com/cif-blazor/img/basket-bg2.png") center repeat, linear-gradient(30deg, #500, maroon, #500, maroon, #500, maroon, #500);
+  background: url("https://www.choctawindianfair.com/cif-blazor/img/basket-bg.png") center repeat, linear-gradient(30deg, #500, maroon, #500, maroon, #500, maroon, #500);
   background-size: 300px 210px, cover;
   background-attachment:fixed, fixed;
 }
