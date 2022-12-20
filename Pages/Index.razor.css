@@ -1,6 +1,6 @@
 .diamond-bg {
-  background: url("https://www.choctawindianfair.com/cif-blazor/img/diamond-bg2.png") center repeat, linear-gradient(30deg, #500, maroon, #500, maroon, #500, maroon, #500);
-  background-size: 200px 100px, cover;
+  background: url("https://www.choctawindianfair.com/cif-blazor/img/basket-bg.png") center repeat, linear-gradient(30deg, #500, maroon, #500, maroon, #500, maroon, #500);
+  background-size: 300px 210px, cover;
   background-attachment:fixed, fixed;
 }
 #card-gold-border {
@@ -26,4 +26,9 @@
 
 #halito-shadow {
   text-shadow: #000 3px 3px 3px;
+}
+
+#png-shadow {
+  -webkit-filter: drop-shadow(5px 5px 4px #000);
+  filter: drop-shadow(5px 5px 4px #000); 
 }
